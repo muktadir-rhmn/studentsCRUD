@@ -1,9 +1,10 @@
 package com.university.students.error;
 
-import me.untoldstories.be.constants.ErrorResponseCode;
-import me.untoldstories.be.error.exceptions.ErrorMessagePerFieldException;
-import me.untoldstories.be.error.exceptions.SingleErrorMessageException;
-import me.untoldstories.be.utils.pojos.SingleMessageResponse;
+
+import com.university.students.constants.ErrorResponseCode;
+import com.university.students.error.exceptions.ErrorMessagePerFieldException;
+import com.university.students.error.exceptions.SingleErrorMessageException;
+import com.university.students.utils.pojos.SingleMessageResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
